@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Contactos</title>
+            <meta charset="utf-8">
+            <link rel="icon" href="Imagenes/Edificio.png">
+            <link rel="stylesheet" type="text/css" href="Estilos/EstilosContactos.css">
+            <script type="text/javascript" src="JavaScript/ContactosJavaScript.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="divMenu">
+                <div>
+                    <table class="decoracionMenu">
+                        <tr style="margin-top: 10px;">
+                            <td>
+                                <a href="Index.html"><img src="Imagenes/Logo.png" width="62px" /></a>
+                            </td>
+                            <td>
+                                <a href="Index.html">Inicio</a>
+                            </td>
+                            <td>
+                                <a href="Cotizador.html">Cotizador</a>
+                            </td>
+                            <td>
+                                <a href="#">Contactanos</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </nav>
+
+        <section style="margin: 10px 0 0 25px;">
+            <div style="display: flex;">
+                <div style="width: 50%;" >
+                    <h1>Información</h1>
+                    <p>Por favor ingrese sus datos para entrar en 
+                        contacto y recibir toda la Información que requiera.
+                    </p>
+                    
+                    <form action="" style="margin-left: 20px;">
+                        <label for="Nombre">Nombre:</label></br>
+                        <input type="text" maxlength="50" id="nombre" autocomplete="off" /></br>
+                        </br>
+                        <label for="Apellido">Apellido:</label></br>
+                        <input type="text" maxlength="50" id="apellido" autocomplete="off" /></br>
+                        </br>
+                        <label for="CorreoE">Correo electronico:</label></br>
+                        <input type="text" maxlength="50" id="correoE" autocomplete="off" /></br>
+                        </br>
+                        <label for="Telefono">Telefono:</label></br>
+                        <input type="number" id="telefono" autocomplete="off" /></br>
+                        </br>
+                        <input type="button" id="btnContactos" value="Enviar" autocomplete="off" />
+                    </form>
+                </div>
+
+                <div style="width: 50%;" align="center" >
+                    <img src="Imagenes/email.png" alt="laptop" class="styleImg" />
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

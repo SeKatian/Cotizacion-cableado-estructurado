@@ -1,0 +1,54 @@
+:root{
+	--colorMenu: #000009;
+	--colorBtn: #4A6AD9;
+	--colorFondo: #f4f4f4;
+	--letraBlanca: #f4f4f4;
+	--colorError: #cb3234;
+}
+
+/*Inicio estilos menu y body*/
+body{
+	margin: 0;
+	background: var(--colorFondo);
+	font-family: sans-serif;
+}
+
+.divMenu{
+    width: 100%;
+    height: 90px;
+    background: var(--colorMenu);
+}
+
+.decoracionMenu{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7%;
+	margin-top: 0;
+	padding-top: 13px;
+}
+
+.decoracionMenu a{
+	color: var(--letraBlanca);
+	text-decoration: none;
+}
+
+.decoracionMenu td a{
+	margin-left: 110px;
+}
+/*Fin estilos menu y body*/
+
+.styleImg{
+    width: 360px;
+    margin-top: 78px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.textoCampoObligatorio{
+    border: 2px solid var(--colorError);
+}

@@ -1,0 +1,73 @@
+:root{
+	--colorMenu: #000009;
+	--colorBtn: #4A6AD9;
+	--colorFondo: #f4f4f4;
+	--letraBlanca: #f4f4f4;
+	--colorError: #cb3234;
+}
+
+/*Inicio estilos menu y body*/
+body{
+	margin: 0;
+	background: var(--colorFondo);
+	font-family: sans-serif;
+}
+
+.divMenu{
+    width: 100%;
+    height: 90px;
+    background: var(--colorMenu);
+}
+
+.decoracionMenu{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7%;
+	margin-top: 0;
+	padding-top: 13px;
+}
+
+.decoracionMenu a{
+	color: var(--letraBlanca);
+	text-decoration: none;
+}
+
+.decoracionMenu td a{
+	margin-left: 110px;
+}
+/*Fin estilos menu y body*/
+
+/*Inicio cuerpo del documento*/
+.centrarTexto{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divImgInicio{
+	position: absolute;
+    top: 30.5%;
+    left: 12%;
+    width: 510px;
+}
+
+.divBtnInicio{
+    font-size: 18px;
+    width: 98px;
+    background: var(--colorBtn);
+    border-radius: 16px;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.divBtnInicio p{
+	padding: 0px 14px 0px 14px;
+    margin: 7px 0 7px 0;
+	color: var(--letraBlanca);
+}
+
+.divBtnInicio a{
+	text-decoration: none;
+}
+/*Fin cuerpo del documento*/
